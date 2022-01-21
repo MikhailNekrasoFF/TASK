@@ -13,6 +13,7 @@ export class Bootstrap {
 
   constructor() {
     this.router = createRouter();
+
     this.diContainer = createDIContainer(
       integrationContainer,
       apiClientsContainer,
