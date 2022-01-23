@@ -33,6 +33,10 @@ export const Menu = () => {
           label="Решение"
           onClick={handlerFactory(ROUTER_CONST.TASK.name)}
         />
+        <BottomNavigationAction
+          label="Test"
+          onClick={handlerFactory(ROUTER_CONST.TASK.name)}
+        />
       </BottomNavigation>
     </Box>
   );
